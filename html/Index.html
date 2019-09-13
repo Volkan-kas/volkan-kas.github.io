@@ -7,7 +7,7 @@
   </head>
   <body>
     <div class="sidebar">
-      <a href="../index.html">HOME</a><br>
+      <a href="../">HOME</a><br>
       <a href="#begin">Begin</a><br>
       <a href="#text">H1/2</a><br>
       <a href="#text">p</a><br>
@@ -99,13 +99,43 @@
     </div>
     <div class="textarea" id="style"><br>
       <h2>style</h2>
-      Als je een foto of gif wil toevoegen aan je website, gebruik je &lt;img&gt;. door &lt;width&gt; of &lt;height&gt; kun je de grote aanpassen. Hier een voorbeeld:<br><br>
+      &lt;style&gt; maakt websites mooi. Ze veranderen kleuren, fonts, grote, enz. Er zijn verschillende manieren om dit toe te voegen. Bijvoorbeeld in de &lt;head&gt;. Hier een voorbeeld.<br><br>
         <div class="html-gebied">
-          &lt;img src="(map met foto)/(naam).(extensie)" width="450px"/&gt;<br><br>
-          &lt;img src="Images/voorbeeldfoto.jpg" width="450px"/&gt;
+          &lt;head&gt;<br>
+          &emsp;&lt;meta charset="utf-8"&gt;<br>
+          &emsp;&lt;title&gt;&lt;/title&gt;<br>
+          &emsp;&lt;style&gt;<br>
+          &emsp;&emsp;body {<br>
+          &emsp;&emsp;background-color: #222222;<br>
+          &emsp;&emsp;font-family: arial;<br>
+          &emsp;&emsp;font-size: 16px;<br>
+          &emsp;&emsp;text-align: center;<br>
+          &emsp;&emsp;}<br>
+          &emsp;&emsp;.naam {<br>
+          &emsp;&emsp;color: green;<br>
+          &emsp;&emsp;font-family: fantasy;<br>
+          &emsp;&emsp;font-size: 16px;<br>
+          &emsp;&emsp;}<br>
+          &emsp;&lt;/style&gt;<br>
+          &lt;/head&gt;<br>
+          &lt;body&gt;<br>
+          &emsp;&lt;p class="naam"&gt;Volkan&lt;/p&gt;<br>
+          &lt;/body&gt;<br>
         </div><br>
         <div class="html-gebied">
-          <img src="../Images/voorbeeldfoto.jpg" width="450px" />
+          <p style="color:green;font-family:fantasy;font-size:30px;">Volkan</p>
+        </div><br>
+    </div>
+    <div class="textarea" id="a"><br>
+      <h2>a</h2>
+      Wil je een link toevoegen naar een andere website of pagina? dat kan! dit doe je met &lt;a&gt;. Je kan dit op tekst, fotos(img), buttons enz. Als je target _blank toevoegd, opent de link in een nieuwe pagina. Hier een voorbeeld:<br><br>
+        <div class="html-gebied">
+          &lt;a href="google.com" target="_blank"&gt;Deze tekst opent google&lt;/a&gt;<br><br>
+          &lt;a href="test.html" target="_blank"&gt;Deze tekst opent een test pagina&lt;/a&gt;
+        </div><br>
+        <div class="html-gebied">
+          <a href="google.com" target="_blank">Deze tekst opent google</a><br><br>
+          <a href="test.html" target="_blank">Deze tekst opent een test pagina</a>
         </div><br>
     </div>
   </body>
